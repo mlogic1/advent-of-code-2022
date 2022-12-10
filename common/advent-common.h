@@ -12,7 +12,7 @@
 #ifndef ADVENT_COMMON
 #define ADVENT_COMMON
 
-#include "days.h"
+// #include "days.h"
 #include <fstream>
 #include <set>
 #include <map>

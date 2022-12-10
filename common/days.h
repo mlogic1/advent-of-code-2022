@@ -12,7 +12,7 @@
 #ifndef ADVENT_DAYS
 #define ADVENT_DAYS
 
-// #include <advent-common.h>
+#include <advent-common.h>
 #include <cstdint>
 #include <set>
 
@@ -24,7 +24,7 @@ namespace Day01
 	void PartB(const std::set<uint32_t>& calorieSums);
 }
 
-/*namespace Day02
+namespace Day02
 {
 	void RunDay();
 
@@ -32,7 +32,7 @@ namespace Day01
 	void PartB(StringVector& input);
 }
 
-namespace Day03
+/*namespace Day03
 {
 	void RunDay();
 

@@ -31,8 +31,6 @@ namespace Day01
 
 	void RunDay()
 	{
-		StringVector input;
-
 		std::set<uint32_t> calorieSums;
 
 		try
