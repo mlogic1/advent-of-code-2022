@@ -32,12 +32,12 @@ namespace Day02
 	void PartB(StringVector& input);
 }
 
-/*namespace Day03
+namespace Day03
 {
 	void RunDay();
 
 	void PartA(StringVector& input);
 	void PartB(StringVector& input);
-}*/
+}
 
 #endif
