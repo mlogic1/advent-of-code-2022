@@ -12,12 +12,12 @@
 #ifndef ADVENT_COMMON
 #define ADVENT_COMMON
 
-// #include "days.h"
 #include <fstream>
 #include <set>
 #include <map>
 #include <string>
 #include <sstream>
+#include <stack>
 #include <vector>
 #include <type_traits>
 
@@ -27,6 +27,7 @@ using std::vector;
 
 using StringVector = vector<string>;
 using IntVector = vector<int>;
+using VecStack = std::vector<std::stack<char>>;
 
 namespace common
 {

@@ -20,7 +20,7 @@ namespace Day01
 {
 	void RunDay();
 
-	void PartA(const std::set<uint32_t>& calorieSums);
+	void PartA(VecStack& stacks);
 	void PartB(const std::set<uint32_t>& calorieSums);
 }
 
@@ -38,6 +38,22 @@ namespace Day03
 
 	void PartA(StringVector& input);
 	void PartB(StringVector& input);
+}
+
+namespace Day04
+{
+	void RunDay();
+
+	void PartA(StringVector& input);
+	void PartB(StringVector& input);
+}
+
+namespace Day05
+{
+	void RunDay();
+
+	void PartA(std::vector<std::stack<char>>);
+	void PartB(std::vector<std::stack<char>>);
 }
 
 #endif
